@@ -18,7 +18,7 @@ namespace Task1
 
             for (int i=3; i<=boundary; i += 2)//checks the odd numbers
             {
-                if (number % 2 == 0) return false;
+                if (number % i == 0) return false;
             }
             return true;
         }
