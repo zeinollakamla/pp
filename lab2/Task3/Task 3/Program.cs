@@ -11,17 +11,11 @@ namespace Task_3
     {
         static void Main(string[] args)
         {
-            
-            F3();
-        }
-       
-
-        private static void F3()
-        {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Kamila Zeinolla\Documents\Visual Studio 2017\Projects\Task1");
+            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Kamila Zeinolla\Documents\Visual Studio 2017\Projects");
             PrintInfo(dir, 1);
         }
-
+      
+  
         private static void PrintInfo(FileSystemInfo fsi, int k)
         {
             string line = new string(' ', k);
