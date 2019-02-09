@@ -12,8 +12,8 @@ namespace Task4
         {
             string line1 = Console.ReadLine();
 
-            int n = int.Parse(line1);//Cast the string to int
-            string[,] a = new string[n, n];//Initializing an Array
+            int n = int.Parse(line1);
+            string[,] a = new string[n, n];
             for (int i=0; i<n; ++i)
             {
                 for(int j=0; j<n; ++j)
